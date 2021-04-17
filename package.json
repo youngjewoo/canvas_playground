@@ -1,0 +1,29 @@
+{
+  "name": "canvas_playground",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack",
+    "serve": "webpack-dev-server"
+  },
+  "description": "html의 <canvas> 태그에 대한 학습을 위한 브랜치입니다.",
+  "dependencies": {
+    "@babel/preset-env": "^7.13.15",
+    "babel-loader": "^8.2.2",
+    "html-webpack-plugin": "^4.3.0",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/youngjewoo/canvas_playground.git"
+  },
+  "keywords": [],
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/youngjewoo/canvas_playground/issues"
+  },
+  "homepage": "https://github.com/youngjewoo/canvas_playground#readme"
+}
